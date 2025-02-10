@@ -1,4 +1,4 @@
-let noClicks = 1;
+let noClicks = 0;
 const maxNoClicks = 3; // To represent our 4 gfs
 const minNoScale = 0.65;
 let noScale = 1;
@@ -23,7 +23,7 @@ const buttonContainer = document.querySelector(".btn-container");
 const gifs =["assests/i-miss-you-cupcake.gif","assests/gir-sadly-crying.gif","assests/gir-crying-closeup.gif"];
 
 // an array of messages for no-btn
-const nobtnmessages = ["I think you pressed 'No' by accident", "Wow, really?", "Pumpkin PLS PLS PLS PLS PLS !"];
+const nobtnmessages = ["I think you clicked 'No' by accident", "Wow, really?", "Pumpkin, please !","PLS PLS PLS PLS PLS !"];
 
 // when clicking no button
 noButton.addEventListener('click',() => {
