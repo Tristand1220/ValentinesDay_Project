@@ -60,6 +60,7 @@ button{
     white-space: nowrap;
     font-size: 1.3rem;
     font-weight: 600;
+    font-family: "Steph", sans-serif;
     transition: transform 0.1s ease;
 }
 
@@ -115,6 +116,7 @@ button:hover{
         white-space: nowrap;
         font-size: 1rem;
         font-weight: 600;
+        font-family: "Steph", sans-serif;
         transition: transform 0.1s ease;
 }
 }
@@ -153,6 +155,7 @@ button:hover{
         white-space: nowrap;
         font-size: 0.8rem;
         font-weight: 600;
+        font-family: "Steph", sans-serif;
         transition: transform 0.1s ease;
 }
 }
